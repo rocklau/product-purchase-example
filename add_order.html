@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>招标订单</title>
+<style>
+	 label{
+	display:block;
+	 
+}
+ 
+</style>
+
+</head>
+
+<body>
+招标订单
+<form name="form1" method="post" action="add_order.php">
+ 
+    <p>
+      <label for="title">标题</label>
+      <input type="text" name="title" id="title">
+    <p>
+      <label for="info">说明</label>
+    <textarea name="info" id="info" cols="45" rows="5"></textarea>            
+    <label for="lowprice">最低限价</label>
+    <input type="text" name="lowprice" id="lowprice">
+    </p>
+    <p>    
+      
+      <input type="submit" name="add" id="add" value="发布">
+    </p>
+    
+</form>
+</body>
+</html>
